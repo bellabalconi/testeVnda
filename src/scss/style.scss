@@ -224,12 +224,14 @@ label {
 
 input:focus {
   border-bottom: 2px solid;  
+  color: $darkPeach;
 }
 
 input:valid + label,
 input:focus + label {
   font-size: .8rem;
   top: -30px;
+  color:$darkPeach;
   pointer-events: none;
 }
 .send-button{
@@ -238,8 +240,9 @@ input:focus + label {
     cursor: pointer;
 }
 .send-button:hover{
-    font-size: 14px;
+    font-size: 15px;
     transition-duration: 0.1s;
+    color: $darkPeach;
 }
 .submenu{
     display: flex;
@@ -257,6 +260,11 @@ input:focus + label {
 hr{
     border: 1px solid; 
 	border-color: $peach;
+}
+.footer i{
+    text-align: center;
+    cursor: pointer;
+    
 }
 
 @media only screen and (max-width: 600px){
