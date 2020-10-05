@@ -13,6 +13,10 @@
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.11.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.0",
+    "material-design-icons": "^3.0.1",
+    "swiper": "^6.3.2"
+  },
   "description": ""
 }
